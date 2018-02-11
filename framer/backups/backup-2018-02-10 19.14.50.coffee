@@ -16,7 +16,7 @@ right_finger.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 740
     
 Right_circle.draggable.enabled = true
 
@@ -26,7 +26,7 @@ Right_circle.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 740
     
 circle_left.draggable.enabled = true
 
@@ -36,7 +36,7 @@ circle_left.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 715
     
 middle_finger.draggable.enabled = true
 
@@ -46,7 +46,7 @@ middle_finger.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 715
     
 left_finger.draggable.enabled = true
 
@@ -56,7 +56,7 @@ left_finger.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 715
     
 circle_middle.draggable.enabled = true
 
@@ -66,6 +66,6 @@ circle_middle.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 715
     
 

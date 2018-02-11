@@ -26,7 +26,7 @@ Right_circle.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 650
     
 circle_left.draggable.enabled = true
 
@@ -36,7 +36,7 @@ circle_left.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 650
     
 middle_finger.draggable.enabled = true
 
@@ -66,6 +66,6 @@ circle_middle.draggable.constraints =
     x: 0
     y: 40
     width: 375
-    height: 700
+    height: 650
     
 

@@ -1,30 +1,6 @@
 big.states.a =
 	blur: 3
 	shadowSpread: 24
-
-magic.states.b =
-	borderWidth: 4
-	blur: 6
-	x: 108
-	y: 490
-	width: 101
-	height: 101
-	opacity: 0.40
-
-magic.states.a =
-	borderWidth: 16
-	blur: 6
-	x: 108
-	y: 490
-	width: 101
-	height: 101
-	opacity: 0.40
-
-magic.onTap (event, layer) ->
-	magic.animate "a", 
-		time: 1.20
-		curve: Spring
-	
 	
 big.states.b =
 	blur: 5
@@ -45,7 +21,6 @@ small.states.a =
 big.onDrag (event, layer) ->
 	text.stateCycle("a","b")
 	big.stateCycle("a","b")
-	small.stateCycle()
 	
 small.onDrag (event, layer) ->
 	text.stateCycle("a","b")
@@ -83,8 +58,3 @@ ripple = require("simpleripple").ripple
 
 big.on(Events.TouchStart, ripple)
 small.on(Events.TouchStart, ripple)
-
-
-
-		
-	

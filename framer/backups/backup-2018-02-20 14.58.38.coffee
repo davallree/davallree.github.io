@@ -84,7 +84,13 @@ ripple = require("simpleripple").ripple
 big.on(Events.TouchStart, ripple)
 small.on(Events.TouchStart, ripple)
 
+pulse = new Animation
+	layer = magic
+	properties: 
+		blur: 6
+	time: 1
+	curve: Bezier.easeInOut
 
-
+animation
 		
 	

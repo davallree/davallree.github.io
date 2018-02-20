@@ -84,6 +84,10 @@ ripple = require("simpleripple").ripple
 big.on(Events.TouchStart, ripple)
 small.on(Events.TouchStart, ripple)
 
+magic.animate
+	options:
+		time: 1
+		curve: Bezier.ease
 
 
 		

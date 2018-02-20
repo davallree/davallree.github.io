@@ -45,7 +45,6 @@ small.states.a =
 big.onDrag (event, layer) ->
 	text.stateCycle("a","b")
 	big.stateCycle("a","b")
-	small.stateCycle()
 	
 small.onDrag (event, layer) ->
 	text.stateCycle("a","b")
@@ -83,8 +82,3 @@ ripple = require("simpleripple").ripple
 
 big.on(Events.TouchStart, ripple)
 small.on(Events.TouchStart, ripple)
-
-
-
-		
-	

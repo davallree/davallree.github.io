@@ -20,4 +20,6 @@ framer/framer.generated.js
 framer/coffee-script.js
 framer/framer.init.js
 framer/framer.js
+modules/simpleripple.coffee
 modules/myModule.coffee
+modules/Gradient.coffee

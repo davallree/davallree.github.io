@@ -21,7 +21,7 @@ exports.ripple = (event, layer) ->
 
 	
     #Variables to configure your ripple and feedback
-	ripplecolor = "rgba(59, 59, 59, 0.10)"
+	ripplecolor = "rgba(61, 131, 235, 0.10)"
 	feedbackcolor = "rgba(135, 135, 135, 0.10)"
 	ripplesize = layer.height
 

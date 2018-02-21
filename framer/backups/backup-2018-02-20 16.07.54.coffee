@@ -1,4 +1,3 @@
-fontFamily: Utils.loadWebFont("Exo+2")
 
 big.states.a =
 	blur: 3
